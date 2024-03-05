@@ -4,9 +4,8 @@
   "description": "",
   "main": "greetingApp.js",
   "scripts": {
-    "test": "cypress run",
-    "start": "node server.js",
-    "cy:run": "cypress run"
+    "test": "node test/seleniumTest.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +14,7 @@
     "express": "^4.18.3"
   },
   "devDependencies": {
-    "cypress": "^9.0.0"
+    "selenium-webdriver": "^4.0.0",
+    "chromedriver": "^90.0.0"
   }
 }
